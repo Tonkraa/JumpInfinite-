@@ -15,13 +15,14 @@ end)
 game.StarterGui:SetCore("SendNotification", {
     Title = "Tonkra Hub";
     Text = "Made by tonkra"; -- what the text says (ofc)
-    Duration = 60;
+    Duration = 10;
 })
 wait(1)
 game.StarterGui:SetCore("SendNotification", {
     Title = "Inf jump working!";
     Text = "Enjoy!"; -- what the text says (ofc)
-    Duration = 60;
+    Duration = 10;
 })
 _G.HeadSize = 20
 _G.Disabled = true
+_G.Color = 168, 235, 255
